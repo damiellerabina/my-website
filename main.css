@@ -1,0 +1,207 @@
+/* Background and Navbar */
+*{
+    font-family: 'Lucida Handwriting', cursive;
+    margin:0;
+    padding:0;
+    font-size: larger;
+
+}
+body,html{
+    background-image:url(wow.jpeg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:#FFF
+}
+.sidenav {
+    height: 100%; 
+    width: 300px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #FFF; 
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align:center;
+    border-right: 1px solid #464646;
+}
+.sidenav img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #464646;
+    display: block;
+    margin:2%;
+}
+.sidenav a.active{
+    color:red;
+}
+.sidenav a:hover {
+    color: #000;
+}
+/* End */
+/* Homepage */
+.main {
+    margin-left: 300px;
+}
+.main .home{
+    padding:5%;
+}
+.main .home img{
+    float:left;
+    width:500px;
+    height:600px;
+}
+
+.main .home h1{
+    text-align:center;
+    padding:50px;
+    font-size:12mm;
+    text-shadow: 2px 2px #FFF;
+}
+.main .header{
+    height:200px;
+    width:100%;
+    background-color:rgb(241, 124, 56);
+    text-align: center;
+}
+.main .header h1{
+    font-size:12mm;
+    padding:80px;
+}
+@media only screen and (max-width: 1000px) {
+    .main .home img{
+        border-radius: 50%;
+    }
+
+    .main .home{
+        text-align:center;
+    }
+}
+/* End of Homepage */
+/* Services */
+.main .hobbies{
+    text-align:center;
+}
+.main .hobbies-body .service{
+    display:inline-table;
+    padding:5%;
+    border:2px solid black;
+    margin-left:2%;
+    height:500px;
+    width:250px;
+    margin:2%;
+    font-size:5mm;
+    background-color:white;
+}
+.hobbies img{
+    height:250px;
+    width:250px;
+}
+.title{
+    font-size:12mm;
+    color:Orange;
+}
+/* End */
+/* Photography Page */
+div.hobbies {
+  border: 1px solid #ccc;
+  
+}
+
+div.hobbies:hover {
+  border: 1px solid #777;
+}
+
+div.hobbies img {
+  width: 40%;
+  height: 500px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 25px;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* End of Photography Code */
+/* About */
+.main .about{
+    padding:10%;
+}
+.content{
+    text-align:center;
+    height:500px;
+    width:100%;
+    background-color:rgb (0, 0, 0, 0.4);
+}
+.content p{
+    font-size:5mm;
+    text-shadow: 2px 2px #FFF;
+}
+.content img{
+    padding:10px;
+    width:80%;
+    height:600px;
+}
+/* End of About */
+
+/* contact */
+.main .contact{
+    padding:10%;
+}
+.main contact-body{
+    background-image: url(pika.jpeg);
+    text-align:center;
+    height:500px;
+    width:100%;
+    background-color:rgb (0, 0, 0, 0.4);
+}
+.contact p{
+    font-size:5mm;
+    text-shadow: 2px 2px #FFF;
+}
+.contact img{
+    padding:10px;
+    width:80%;
+    height:600px;
+}
